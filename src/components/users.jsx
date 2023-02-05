@@ -88,9 +88,6 @@ const Users = () => {
 
   return (
     <>
-      {/* <h1 className="badge bg-primary">
-        {users.length} человек тусанут с тобой сегодня
-      </h1> */}
       {renderPhrase(users.length)}
       {renderTable()}
     </>
